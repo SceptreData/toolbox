@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Accordion</title>
+    <style>
+      .accordion-itm {
+        background: #eee;
+        color: #444;
+        padding: 18px;
+        cursor: pointer;
+        width: 100%;
+        transition: 0.4s;
+      }
+
+      .active, .accordion-itm:hover {
+        background: #ccc;
+      }
+
+      .panel {
+        padding: 0 18px;
+        background: white;
+        display: none;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="accordion">
+      <li class="accordion-itm">
+        <button class="accordion-btn">Section 1</button>
+        <div class="panel">
+          <p>
+            The contents of this accordion panel are riveting!
+          </p>
+        </div>
+      </li>
+      <li class="accordion-itm">
+        <button class="accordion-btn">Section 2</button>
+        <div class="panel">
+          <p>
+            The contents of this accordion panel are riveting!
+          </p>
+        </div>
+      </li>
+      <li class="accordion-itm">
+        <button class="accordion-btn">Section 3</button>
+        <div class="panel">
+          <p>
+            The contents of this accordion panel are riveting!
+          </p>
+        </div>
+      </li>
+      <li class="accordion-itm">
+        <button class="accordion-btn">Section 4</button>
+        <div class="panel">
+          <p>
+            The contents of this accordion panel are riveting!
+          </p>
+        </div>
+      </li>
+    </ul>
+    <script src="main.js"></script>
+  </body>
+</html>
